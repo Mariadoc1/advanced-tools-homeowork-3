@@ -146,13 +146,13 @@ p {
   }
 
   .contact-link {
-    font-size: 20px;
-    max-width: 100px;
+    font-size: 25px;
+    max-width: 120px;
   }
 
   .about-link {
-    font-size: 20px;
-    max-width: 100px;
+    font-size: 25px;
+    max-width: 120px;
   }
 
   #yoga-app-button {
@@ -170,7 +170,6 @@ p {
   #yoghurt-app-button {
     font-size: 8px;
     max-width: 30px;
-    margin: 0px;
   }
 
   .mb-3 {
@@ -190,6 +189,15 @@ p {
 
   .email-link {
     font-size: 20px;
+  }
+
+  .col-md-6 {
+    display: block;
+    max-width: 100%;
+    text-align: center;
+  }
+  img {
+    display: none;
   }
 }
 
