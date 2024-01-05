@@ -112,3 +112,116 @@ p {
   max-width: 100%;
   height: auto;
 }
+
+@media (max-width: 430px) {
+  .heading-emoji {
+    display: none;
+  }
+
+  .scotland-flag-left {
+    font-size: 25px;
+    position: relative;
+    left: -6px;
+  }
+
+  .scotland-flag-right {
+    font-size: 25px;
+  }
+
+  #hi {
+    font-size: 30px;
+    position: relative;
+    left: 26px;
+  }
+
+  #maria-docherty {
+    font-size: 65px;
+    position: relative;
+    left: 23px;
+  }
+
+  #based {
+    position: relative;
+    left: 20px;
+  }
+
+  .contact-link {
+    font-size: 20px;
+    max-width: 100px;
+  }
+
+  .about-link {
+    font-size: 20px;
+    max-width: 100px;
+  }
+
+  #yoga-app-button {
+    font-size: 10px;
+    max-width: 30px;
+    margin: 0px;
+  }
+
+  #weather-app-button {
+    font-size: 8px;
+    max-width: 30px;
+    margin: 0px;
+  }
+
+  #yoghurt-app-button {
+    font-size: 8px;
+    max-width: 30px;
+    margin: 0px;
+  }
+
+  .mb-3 {
+    font-size: 30px;
+  }
+
+  #about-heading {
+    font-size: 50px;
+  }
+
+  #about-info {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+
+  .email-link {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .heading-emoji {
+    display: none;
+  }
+
+  .scotland-flag-left {
+    font-size: 25px;
+    position: relative;
+    left: -6px;
+  }
+
+  .scotland-flag-right {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .heading-emoji {
+    position: relative;
+    right: 20px;
+    bottom: 7px;
+    font-size: 35px;
+  }
+
+  .scotland-flag-left {
+    font-size: 25px;
+    position: relative;
+    left: -6px;
+  }
+
+  .scotland-flag-right {
+    font-size: 25px;
+  }
+}
